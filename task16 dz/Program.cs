@@ -9,9 +9,7 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число 2 ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-if (numberA * numberA == numberB)
-{ Console.WriteLine("ДА"); }
-if (numberB * numberB == numberA)
+if (numberA * numberA == numberB || numberB * numberB == numberA)
 { Console.WriteLine("ДА"); }
 else
 { Console.WriteLine("NET"); }
